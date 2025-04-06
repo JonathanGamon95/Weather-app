@@ -1,0 +1,60 @@
+body {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #F7F8FA ;
+  font-family: sans-serif;
+}
+
+.CONT-GENERAL {
+  background-color: #C68EFD;
+
+  -webkit-box-shadow: 10px 10px 45px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 45px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 45px 0px rgba(0, 0, 0, 0.75);
+}
+
+
+.CONT-TIEMPO-ACTUAL,
+.CONT-PRONOSTICO {
+  background-color: #1E1E1E;
+  position: relative;
+}
+
+.CONT-TIEMPO-ACTUAL,
+.CONT-INFO {
+  color: aliceblue;
+}
+
+.CONT-INFO,
+.CONT-MAPA {
+  background-color: #1E1E1E;
+}
+
+
+li {
+  background-color: #dcb9ff;
+}
+
+
+
+.PRONS-DIAS {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+
+
+/* boton recargar */
+.rotar {
+  transition: 1s;
+  transform: rotate(-360deg);
+}
